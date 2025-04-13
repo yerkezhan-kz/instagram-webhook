@@ -1,5 +1,5 @@
 from flask import Flask, request
-
+import os
 app = Flask(__name__)
 
 VERIFY_TOKEN = "my_ig_bot_token"  # Укажи такой же токен в Meta
